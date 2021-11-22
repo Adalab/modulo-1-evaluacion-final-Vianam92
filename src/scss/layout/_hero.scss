@@ -16,13 +16,39 @@ object-fit: cover;
     display:flex;
     flex-direction: column;
     align-items: center;
+    &__h1{
+        font-family:$font-main;
+        font-size: 42px;
+        line-height: 50px;
+        width:290px;
+        text-align: center;
+        height: 110px;
+        margin: 240px 0 10px 15px;
+        text-shadow: 0 2 1.5 0 white;
+        font-weight: bold;
+        &__h6{
+            font-family:$font-main; 
+            width:290px;
+            font-weight: bold;
+            height:21px;
+            margin:10px 0 45px 15px;
+            font-size: 16px;
+        }
+    }
     &__icon-scroll{
         background-color:white;
-        width:50px;
-        height:50px;
-        border-radius: 50px;
+        width:45px;
+        height:45px;
+        border-radius: 25px;
         line-height: 50px;
         text-align: center;
+        margin: 45px 122px 0 94px;
     }
 }
+}
+.img-icon-scroll{
+    width:30px;
+    padding:2px;
+    height:15px;
+    object-fit: contain;
 }

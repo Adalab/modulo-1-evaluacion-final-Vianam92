@@ -1,9 +1,15 @@
 .header{
     position:fixed;
     background-color:$color-hd;
-    width:25px;
-    height:25px;
+    width:44px;
+    height:44px;
+    z-index: 999;
+    display:flex;
+    align-items: center;
+    justify-content: center;
     &__ico-menu{
-        padding:2.5px;
+        width:16px;
+        height:14px;
+        object-fit: contain;
     }
 }
