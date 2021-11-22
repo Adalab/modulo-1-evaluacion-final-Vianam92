@@ -2,25 +2,46 @@
     background-color: $color-secondary;
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 30px 279px 45px;
+    grid-template-rows: 100px 400px 45px;
+    height:624px;
+    text-align: center;
     &--h3{
-text-align: center;
-font-size: 24px;
-font-weight: bold;
-line-height: 1.25;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.25;
+    margin:30px 15px;
     }
     &--picture{
-font-size:18px;
-display:grid;
-grid-template-rows:30px 63px 30px 63px 30px 63px;
-&__h5{
+    font-size:18px;
+    display:grid;
+    grid-template-rows:30px 100px 30px 100px 30px 100px;
+    text-align: center;
+    &__h5{
     line-height: 1.25;
     font-weight: bold;
     font-size: 18px;
-&__p{
+    width:184px;
+    margin:0 120px;;
+}
+    &__p{
     line-height: 1.60;
     font-size: 18px;
+    width:180px;
+    margin:0 120px;}
 }
+&--button{
+    text-align: center;
+    width:100%;
+    &__more{
+        background-color: $color-button;
+        width:184px;
+        border-radius: 25px;
+        height:45px;
+        color:white;
+        font-size: 20px;
+        line-height: 1.67;
     }
 }
 }
+
