@@ -1,1 +1,9 @@
-
+.header{
+    position:fixed;
+    background-color:$color-hd;
+    width:25px;
+    height:25px;
+    &__ico-menu{
+        padding:2.5px;
+    }
+}
