@@ -41,7 +41,10 @@
         }
     }
     &-article1{
-        margin-left:100px;
+        @media (min-width:768px){
+           margin-left:100px; 
+        }
+        
     }
     &-small{
         margin-top:20px;
