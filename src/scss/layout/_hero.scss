@@ -10,12 +10,20 @@
 width:100%;
 height:100vh;
 object-fit: cover;
+
 }
 &-absolute{
     position:absolute;
     display:flex;
     flex-direction: column;
     align-items: center;
+    @media (min-width:768px){
+        justify-content: flex-end;
+        height:600px;
+    }
+    @media (min-width:1200px){
+        height:900px;
+    }
     &__h1{
         font-family:$font-main;
         font-size: 42px;
@@ -32,6 +40,12 @@ object-fit: cover;
             margin: 240px 0 20px 39px;
             font-size:80px;
             line-height:1.33;
+        }
+        @media (min-width:1200px){
+            width:730px;
+            height: 264px;
+            font-size: 100px;
+            line-height: 1.32;
         }}
         &__h6{
             font-family:$font-main; 
@@ -44,6 +58,12 @@ object-fit: cover;
                 width:450px;
                 height:21px;
                 font-size:21px;
+            }
+            @media (min-width:1200px){
+                width: 730px;
+                height:32px;
+                font-size: 24px;
+                text-align: center;
             }
         }
     

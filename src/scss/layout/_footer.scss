@@ -39,6 +39,9 @@
             margin-top:0;
         }
     }
+    &-article1{
+        margin-left:100px;
+    }
     &-small{
         margin-top:20px;
         margin-bottom: 20px;
@@ -65,7 +68,7 @@
         text-align: center;
         @media (min-width:768px){
         width: 210px;
-        align-items: flex-start;
+        text-align: left;
         height:50px;
         }
     }
