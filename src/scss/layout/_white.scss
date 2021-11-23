@@ -1,35 +1,52 @@
 .white{
     margin-top:10px;
-    margin-left:15px;
-    display:block;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
     &-p{
         color:$color-hd;
-        width:90px;
         height:20px;
         font-family: $font-main;
         font-size: 14px;
         line-height: 1.25;
         margin-top:20px;
-        text-align:left;
+        margin-left:25px;
+        @media (min-width:768px){
+        height:30px;
+        font-size: 15px;
+        line-height: 2.13;
+        }
+        
     }
     &-h3{
-        width:290px;
         height:60px;
         font-family: $font-main;
         font-size: 24px;
         font-weight: bold;
         line-height: 1.25;
-        text-align:left;
+        margin-left:25px;
+        width:290px;
+        @media (min-width:768px){
+            width:690px;
+            font-size: 26px;
+            line-height: 1.73;
+        }
     }
     &-itemp{
-width:290px;
-height:120px;
-font-family: $font-main;
-font-size: 20px;
-line-height: 1.67;
-color:$color-TextWhite;
-text-align: left;
-margin:20px 15px 10px 0px;
+       height:120px;
+       font-family: $font-main;
+       font-size: 20px;
+       line-height: 1.67;
+       color:$color-TextWhite;
+       margin:20px 15px 10px 25px;
+       width:290px;
+       @media (min-width:768px){
+        width:690px;
+        font-size: 20px;
+        line-height: 1.50;
+        height:60px;
+        margin-top:10px;
+    }
     }
     &-button{
         border: solid 2px $color-button;
@@ -41,5 +58,9 @@ margin:20px 15px 10px 0px;
         color:$color-button;
         font-size: 20px;
         font-weight: bold;
+        margin-left:25px;
+        @media (min-width:768px){
+            width: 91px;
+        }
     }
 }

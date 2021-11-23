@@ -1,6 +1,6 @@
 .hero{
     height:100vh;
-    width: 100%;
+    width:100%;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -26,29 +26,42 @@ object-fit: cover;
         margin: 240px 0 10px 15px;
         text-shadow: 0 2 1.5 0 white;
         font-weight: bold;
+        @media (min-width:768px){
+            width:690px;
+            height:212px;
+            margin: 240px 0 20px 39px;
+            font-size:80px;
+            line-height:1.33;
+        }}
         &__h6{
             font-family:$font-main; 
-            width:290px;
+            width:320px;
             font-weight: bold;
             height:21px;
-            margin:10px 0 45px 15px;
+            margin:10px 0 30px 15px;
             font-size: 16px;
+            @media (min-width:768px){
+                width:450px;
+                height:21px;
+                font-size:21px;
+            }
         }
-    }
+    
     &__icon-scroll{
         background-color:white;
-        width:45px;
-        height:45px;
-        border-radius: 25px;
-        line-height: 50px;
+        width:55px;
+        height:55px;
+        border-radius: 30px;
+        line-height: 85px;
         text-align: center;
-        margin: 45px 122px 0 94px;
+        margin: 35px 115px 0 94px;
     }
 }
 }
 .img-icon-scroll{
-    width:30px;
+    width:35px;
     padding:2px;
-    height:15px;
+    height:35px;
     object-fit: contain;
+    
 }
