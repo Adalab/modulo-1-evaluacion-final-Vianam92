@@ -25,7 +25,6 @@ object-fit: cover;
         height:500px;
     }
     &__h1{
-        font-family:$font-main;
         font-size: 42px;
         line-height: 50px;
         width:290px;
@@ -48,7 +47,6 @@ object-fit: cover;
             line-height: 1.32;
         }}
         &__h6{
-            font-family:$font-main; 
             width:320px;
             font-weight: bold;
             height:21px;
