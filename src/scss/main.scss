@@ -1,15 +1,8 @@
 @import 'core/variables';
 @import 'core/reset';
-@import 'components/links';
 @import 'layout/header';
 @import 'pages/index';
-
-.container{
-    width:100%;
-}
-
-@import 'layout/hero';
+@import 'components/hero';
 @import 'layout/white';
 @import 'layout/blue';
-
 @import 'layout/footer';
