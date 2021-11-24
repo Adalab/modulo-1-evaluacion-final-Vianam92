@@ -1,4 +1,4 @@
-##Proyecto del Modulo 1, Evaluación individual.
+# Proyecto del Modulo 1, Evaluación individual.
 
 Crear una pagina web responsive, utilizando el started kit.
 Usar Sass.
